@@ -20,6 +20,7 @@ class GaitType(Enum):
     BACKDIAGONALCRAWL = 5
     FRONTDIAGONALCRAWL = 6
     FULL_STANCE = 7
+    CUSTOM_WALK = 99
 
 
 def plot_swing_mujoco(

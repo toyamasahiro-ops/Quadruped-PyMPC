@@ -35,6 +35,8 @@ class PeriodicGaitGenerator:
             self.phase_offset = [0.0, 0.5, 0.75, 0.25]
         elif self.gait_type == GaitType.FRONTDIAGONALCRAWL.value:
             self.phase_offset = [0.5, 1.0, 0.75, 1.25]
+        elif self.gait_type == GaitType.CUSTOM_WALK.value:
+            self.phase_offsets = [0.0, 0.25, 0.5, 0.75]
         else:
             self.phase_offset = [0.0, 0.5, 0.5, 0.0]
 
